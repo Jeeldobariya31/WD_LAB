@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+   <img src="./WhatsApp Image 2025-04-03 at 10.55.01_f16b1434.jpg" style="height: 100px; width: 150px; margin-left: 550px;">
+        </div>
+        <div class="row">
+           <h2 style="margin-left: 500px;">Checkout Form</h2>
+        </div>
+        <div class="row">
+          <h4 style="margin-left: 150px;">
+                Below is an exmple form built entirly with bootstrap from controls.Each required from group has a<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validation state that can be triggred  by attempting to submit the form without completing it.
+            </h4>
+        </div>
+        <form class="row g-3 needs-validation" novalidate>
+        <div class="row">
+            <div class="col-8 mt-5">
+                <h2>Billing Address</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="input" class="form-label">First Name</label>
+                      <input type="text" class="form-control"  aria-label="First name" required>
+                    </div>
+                    <div class="col-4">
+                        <label for="input" class="form-label">Last Name</label>
+                      <input type="text" class="form-control"  aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="input" class="form-label">User name</label>
+                    <div class="col-8">
+                    <div class="input-group mb-3">                      
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required>
+                      </div>
+                      </div>
+                </div>
+                
+                <div class="row">
+                    <label for="Input"class="form-label">Email(optional)</label>
+                    <div class="col-8">
+                    <div class="form-floating" >
+                        <input type="email" class="form-control" id="floatingInputValue" placeholder="you@example.com" value="test@example.com" required>       
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                      </div>
+                      <div class="col-8">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+                      </div>
+                      </div>
+                      <div class="row">
+                      
+                      <div class="col-md-4 ">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity" required>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select" required>
+                          <option selected disabled value="">Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-md-1">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip" required>
+                      </div>                   
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-8">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Shipping address is the same as Billing address
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              save this information for next time
+                            </label>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          <h2> Payment</h2>
+                          </label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Credit Card
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Debit card
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Pay Pal
+                            </label>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col">
+                                <label for="input" class="form-label">Name on Card</label>
+                              <input type="text" class="form-control"  aria-label="First name" required>
+                              <br><p class="text-secondary">full name as display on card</p>
+                            </div>
+                            <div class="col">
+                                <label for="input" class="form-label">Credit Card number</label>
+                              <input type="text" class="form-control" " aria-label="Last name" required>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">       
+                        <div class="col-2">
+                            <label for="input" class="form-label">Expriation</label>
+                          <input type="text" class="form-control"  aria-label="First name" required>
+                         
+                        </div>
+                        <div class="col-2">
+                            <label for="input" class="form-label">cvv</label>
+                          <input type="text" class="form-control" aria-label="Last name" required>
+                        </div>  
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <input type="submit" class="btn btn-primary " style="width: 500px;" value="Continue to chechbox" >
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mt-5">
+                <h2>Your Cart 
+                    <button type="button" class="btn btn-secondary">3</button>
+                </h2>
+                <div class="row">
+                    <div class="border p-2">
+                        <div class="row">
+                            <div class="col">
+                                <b>Product name</b> <span style="margin-left:250px;">$12</span>
+                            </div>
+                            <small>Brief description</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="border p-2">
+                        <div class="row">
+                            <div class="col">
+                                <b>Second Product</b> <span style="margin-left:240px;">$8</span>
+                            </div>
+                            <small>Brief description</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="border p-2">
+                        <div class="row">
+                            <div class="col">
+                                <b>Third item</b> <span style="margin-left:280px;">$5</span>
+                            </div>
+                            <small>Brief description</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="border p-2">
+                        <div class="row">
+                            <div class="col">
+                                <b>Promo code</b> <span style="margin-left:260px;">-$5</span>
+                            </div>
+                            <small>EXAMPLECODE</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="border p-2">
+                        <div class="row">
+                            <div class="col">
+                                <b>Total(USD)</b> <span style="margin-left:270px;">$20</span>
+                            </div>
+                            <small></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="input-group mb-3 mt-5">
+                        <input type="text" class="form-control" placeholder="Promo code" aria-label="Promo code" aria-describedby="basic-addon2">
+                        <span class="input-group-text bg-secondary text-white" id="basic-addon2">redeem</span>
+                      </div>
+                   </div>
+                </div>
+            </div>  
+        </div>
+    </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+    </script>
+</body>
+</html>

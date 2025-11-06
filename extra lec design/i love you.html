@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Love</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+        
+        body {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .crazy-text {
+            font-family: 'Rubik Glitch', cursive;
+            font-size: 5rem;
+            color: #ff1493;
+            text-shadow: 3px 3px 10px #ff69b4, -3px -3px 10px #ff4500;
+            animation: crazy 0.5s infinite alternate;
+        }
+        
+        @keyframes crazy {
+            0% {
+                transform: rotate(-5deg) scale(1);
+            }
+            100% {
+                transform: rotate(5deg) scale(1.2);
+            }
+        }
+        .images {
+            margin-top: 20px;
+        }
+        .images img {
+            width: 150px;
+            height: auto;
+            margin: 10px;
+            animation: bounce 1s infinite alternate;
+        }
+        
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="crazy-text">I LOVE YOU</div>
+    <div class="images">
+        <img src="https://i.imgur.com/8Q2v9Fy.png" alt="Teddy Bear">
+        <img src="https://i.imgur.com/R5J1A5h.png" alt="Rose">
+    </div>
+</body>
+</html>

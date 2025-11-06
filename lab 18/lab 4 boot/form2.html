@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>COVID-19 VACTINATION REGISTRATION FORM</h1>
+    <div class="container">
+        <form>
+               <div class="row">
+                <div class="col-4"><label for="fn">firstname</label></td>
+                <div class="col-4"><input type="text" placeholder="enter your first name" required id="fn"></td>
+               </div>
+               <div class="row">
+                <div class="col-4"><label for="sn">lastname</label></td>
+                <div class="col-4"><input type="text" placeholder="enter your last name" required id="sn"></td>
+               </div>
+               <div class="row">
+                <div class="col-4"><label for="an">adhar number</label></td>
+                <div class="col-4"><input type="text" placeholder="enter your addhar no." required id="an"></td>
+               </div>
+               <div class="row">
+               <div class="col-4"><label for="vn">vaction name</label></td>
+                <div class="col-4"><select name="name" id="vn" required>
+                     <option disabled selected>select name</option>
+                    <option>covishield</option>
+                    <option>cowaxin</option>
+                </select>
+               </td>
+        </div>
+               <div class="row">
+                <div class="col-4"><label for="cn"></label> name</label></td>
+                 <div class="col-4"><select name="name" id="cn" required>
+                      <option disabled selected>select center name</option>
+                     <option>jamnagar</option>
+                     <option>rajkot</option>
+                     <option>morbi</option>
+                     <option>vadodara</option>
+                 </select>
+                </td>
+        </div>
+                <div class="row">
+                    <div class="col-4"><label for="dd">nationality</label></td>
+                    <div class="col-4"><input type="date" placeholder="enter your dose date" required id="dd"></td>
+                </div>
+                <div class="row">
+                <div class="col-4"><label for="dn">passing year</label></td>
+                <div class="col-4"><select name="num" id="dn" required>
+                     <option disabled selected>select dose no</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+               </td>
+        </div>
+               <div class="row">
+                <div class="col-4"><input type="submit" value="SUBMIT"></td>
+                <div class="col-4"><input type="reset" value="RESET"></td>
+               </div>
+            </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

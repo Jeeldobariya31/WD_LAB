@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .black {
+            height: 50px;
+            width: 100%;
+            background-color: black;
+        }
+        .main {
+            margin: 30px auto;
+            width: 90%;
+            max-width: 900px;
+        }
+        .header, .foot {
+            background-color: red;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+        }
+        .foot {
+            background-color: blue;
+            font-size: x-large;
+            font-weight: 900;
+        }
+        .mid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .nevbar {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            width: 100px;
+            height: 200px;
+            padding-top: 80px;
+        }
+        .contant {
+            background-color: yellow;
+            text-align: center;
+            flex-grow: 1;
+            min-height: 200px;
+            padding: 20px;
+            margin-left: 10px;
+        }
+        .sidebar {
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            width: 150px;
+            height: 140px;
+            padding-top: 50px;
+            margin-top: 10px;
+        }
+        @media screen and (max-width: 768px) {
+            .mid {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nevbar, .sidebar {
+                width: 100%;
+                height: auto;
+                padding: 20px 0;
+            }
+            .contant {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .header, .foot {
+                font-size: medium;
+            }
+            .foot {
+                font-size: large;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="black"></div>
+    <div class="main">
+        <div class="header">HEADER</div>
+        <div class="mid">
+            <div class="nevbar">NAVBAR</div>
+            <div class="contant">CONTENT
+                <div class="sidebar">SIDEBAR</div>
+            </div>
+        </div>
+        <div class="foot">FOOTER</div>
+    </div>
+    <div class="black"></div>
+</body>
+</html>

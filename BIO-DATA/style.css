@@ -1,0 +1,43 @@
+
+body{ 
+    
+    font-style: italic;
+    font-size: larger;
+    font-weight: 900;
+     background-image: url("https://img.freepik.com/free-photo/low-angle-view-sky-tree_53876-31677.jpg?ga=GA1.1.480904883.1737022036&semt=ais_hybrid");
+     background-repeat:repeat;
+     background-attachment: fixed;
+     background-size: cover; 
+     background-position: center;
+    }    
+div address{
+    border: 2px dotted black;
+    border-radius:50%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 40vw;
+    height: 20vh;
+}
+ol,ul,dl{
+    
+    box-sizing: border-box;
+    border: 2px inset black;
+    border-radius:50%;
+    padding-left: 8%;
+    padding-top: 2%;
+    width: 40vw;
+}
+ol{
+    height: 85vh;
+}
+ul{
+padding-bottom:5%;
+}
+dl{
+    border: 2px inset black;
+    padding-left: 12%;
+    height: 70vh;
+    width:60vw;
+    
+}

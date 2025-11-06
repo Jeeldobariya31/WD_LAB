@@ -1,0 +1,154 @@
+body{
+   background-image:url("https://static.vecteezy.com/system/resources/thumbnails/010/008/086/small/background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main{
+    padding: 15px;
+    border: 4px solid black;
+    width: 1050px;
+    height: 800px;
+    background-color: aliceblue;
+    /* background-image:url("https://static.vecteezy.com/system/resources/thumbnails/010/008/086/small/background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg") ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;
+   
+   
+}
+#hire{
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: red;
+  color: aliceblue;
+  padding: 20px;
+}
+.uper{
+  
+
+  background-image:url("https://img.freepik.com/free-photo/happy-teenager-boy-casual-standing_144627-640.jpg?ga=GA1.1.480904883.1737022036&semt=ais_hybrid") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+}
+.text{
+  padding-left: 40px;
+}
+.foot{
+    padding: 10px;
+    margin-top: 10px;
+    width: 1000px;;
+    color: aliceblue;
+    background-color: blue;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+    
+}
+.nevbar{
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  .nphoto{
+   float: left;
+  }
+  .logob{float: left;
+    border: 2px solid red;
+    color: red;
+    font-size: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+  .link{
+   float: right;
+  }
+  input{
+    border-radius: 15px;
+  }
+  button{
+    padding: 0px;
+    border-radius: 15px;
+    background-color: red;
+    color: aliceblue;
+  }
+  a{  
+      margin-right: 15px;
+      text-decoration: none;
+  }
+  .middle{
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+  }
+  .part1{
+  
+    padding-left: 30px;
+    padding-bottom: 0px;
+    color: black;
+      float: left;
+    
+  }
+  .part2{
+
+    float: right;
+}
+.box{
+  display: flex;
+    flex-direction: row;
+}
+.box1{
+ padding: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+  background-color:white;
+  border-radius: 10%;
+  color:black;
+}
+.box1:hover{
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+  color:white;
+  background-color: black;
+  
+}
+
+.box2{
+  padding: 20px;
+  margin-right: 50px;
+  background-color:white;
+  border-radius: 10%;
+  color:black;
+}
+.box2:hover{
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+  color:white;
+  background-color: black;
+  
+}
+.box3{
+  padding: 20px;
+  margin-right: 50px;
+  background-color:white;
+  border-radius: 10%;
+  color:black;
+  
+}
+.box3:hover{
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+  color:white;
+  background-color: black;
+  
+}
+#f22{
+  margin-top: 10px;
+       font-size: 110px;
+       margin-bottom: 0px;
+}
+
+
+

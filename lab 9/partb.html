@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+body{
+        width: 1100px;
+}
+.nevbar {
+    border: 6px solid black;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-image: url("https://t4.ftcdn.net/jpg/09/10/29/99/240_F_910299914_BwXgmLfetpEBxObGzAdzwZmHTm2WFIDW.jpg");
+    height: 100px;
+    animation: slideInRight 1.5s linear 0s forwards;
+}
+
+a{   
+    font-weight: bolder;
+    font-size: 25px;
+     margin-top: 70px;
+     color:black;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.linksofh{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    animation: slideInLeft 1.5s linear 1.5s forwards;
+    opacity: 0;
+}
+.logojd{
+   margin-left: 70px;
+   border:9px solid black;
+   border-radius: 50%;
+   height: 90px;
+   width: 100px;
+   background-image: url("./JD\ MICRO\ LOGO.png");
+   background-repeat:no-repeat;
+   animation: slideInLeft 1s linear 1s forwards;
+   
+
+}
+#homea{
+    padding: 20px;
+    border: 2px double black;
+    border-radius: 30px;
+color: aliceblue;
+background-color: orange;
+opacity:0.6;
+
+
+}
+
+#culturea{
+   
+    padding: 20px;
+    border: 2px double black;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: orange;
+    opacity: 0.6;
+}
+
+#landmarksa{
+    padding: 20px;
+    border: 2px double black;
+    border-radius: 30px;
+    color: blue;
+    background-color:white;
+    opacity: 0.6;
+ 
+
+}
+#cuisinea{
+    padding: 20px;
+    border: 2px double black;
+    border-radius: 30px;
+    color: aliceblue;
+background-color: green;
+opacity: 0.6;
+
+}
+#contactusa{
+    padding: 20px;
+    border: 2px double black;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: green;
+    opacity:0.6;
+    
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(200%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+    
+        </style>
+</head>
+<body>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <link rel="stylesheet" href="P.CSS"></head>
+        <body>
+                <div class="nevbar">
+                        <div class="linksofh">
+                            <nav>
+                                <a id="homea" href="index.html">Home</a>
+                                <a id="culturea" href="culture.html">Culture</a>
+                                <a id="landmarksa"  href="landmarks.html">landmarks</a>
+                                <a id="cuisinea" href="cuisine.html">Cuisine</a>
+                                <a id="contactusa" href="contactus.html">Contact Us</a>
+                            </nav>
+                        </div>
+                  
+                        <div class="logojd"></div>
+                  </div>
+               </div>
+        </body>
+        </html>
+</body>
+</html>
